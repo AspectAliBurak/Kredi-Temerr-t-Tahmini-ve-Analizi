@@ -29,18 +29,9 @@ Veri Hazırlığı
 Modeller ve Karşılaştırma
 Logistic Regression, Decision Tree ve Random Forest modelleri eğitildi ve
 Accuracy, Precision, Recall, F1 Score, ROC-AUC metrikleriyle karşılaştırıldı.
-Model
-Accuracy
-F1 Score
-Random Forest
-~0.84
-~0.68
-Logistic Regression
-~0.81
-~0.60
-Decision Tree
-~0.78
-~0.60
+
+<img width="1000" height="500" alt="Figure_1" src="https://github.com/user-attachments/assets/1762374d-3a30-451b-b762-0a6e7dc1d4b0" />
+
 En iyi performansı gösteren Random Forest modeli seçildi.
 Karışıklık Matrisi (Random Forest)
 - Doğru tahmin edilen "ödemeyen" (temerrüt): 4.991
@@ -55,10 +46,6 @@ gelir-risk ilişkisi bulgusuyla da tutarlı.
 
 Python (pandas, scikit-learn, imbalanced-learn, matplotlib), Power BI
 
-
 <img width="640" height="480" alt="karışıklık matrisi" src="https://github.com/user-attachments/assets/7048876f-489f-4b12-824d-0d08c03edcf3" />
-📁 Dosyalar
 
-- clean_data.csv — temizlenmiş veri seti
-- model.py — ML pipeline'ı
-- bankaprojesi.pbix — Power BI dashboard dosyası
+
